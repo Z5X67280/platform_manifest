@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Personal Device Manifest -->
+<!-- Device: Redmi 5 Plus / Note 5 -->
+<!-- Creator: urK -kernelaesthesia- (Z5X67280@163.com) -->
+
+  <!-- Kernel: Nito Kernel -->
+  <project path="kernel/xiaomi/vince" name="Z5X67280/android_kernel_xiaomi_msm8953-4.9" remote="github" clone-depth="1" />
+
+  <!-- Device: Resurrection Remix Device Source -->
+  <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rr-d" clone-depth="1" />
+
+  <!-- Vendor: From @root2raj -->
+  <project path="vendor/xiaomi" name="root2raj/proprietary_vendor_xiaomi" remote="github" clone-depth="1" />
+
+<!-- End -->
+
+</manifest>
+
